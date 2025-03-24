@@ -8,7 +8,7 @@ color: WhiteSmoke;
 h1 {
 	text-align: center;
 }
-a:link, a:visited {
+#primer a:link, a:visited {
   background-color: white;
   color: black;
   border: 2px solid ForestGreen;
@@ -18,7 +18,14 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
+#primer a:hover, a:active {
   background-color: ForestGreen;
+  color: white;
+}
+#Jack a:link, a:visited {
+  color: black;
+}
+
+#Jack a:hover, a:active {
   color: white;
 }
